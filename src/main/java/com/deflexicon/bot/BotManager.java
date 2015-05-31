@@ -15,7 +15,7 @@ public class BotManager implements ChatMessageListener
 
 	public BotManager()
 	{
-		Logger.log("Initializing BotManager");
+		Logger.log("Initializing Phal's Bot");
 		allBots = new HashMap<String, Bot>();
 
 		connectToSkype();
@@ -23,7 +23,7 @@ public class BotManager implements ChatMessageListener
 
 	private void connectToSkype()
 	{
-		Logger.log("Connecting BotManager to Skype");
+		Logger.log("Connecting Phal's Bot to Skype");
 		try
 		{
 			Logger.log("Running on Skype " + Skype.getVersion() + " as user " + Skype.getProfile().getId());
